@@ -3,13 +3,16 @@ import git
 import requests
 
 git_url = "https://github.com/Gustavo-Miguel/teste.git"
-pull_url = "https://api.github.com/repos/Gustavo-Miguel/teste/pulls/3"
+pull_url = "https://api.github.com/repos/Gustavo-Miguel/teste/pulls/4"
 repo_dir = "C://Users//gusta//workspace//teste"
 
 def get_description():
     pullObject = requests.get(pull_url)
     description = pullObject.json().get('body')
     return description
+
+def pull_main(cloned_repo):
+    print("Pull main")
 
 if os.path.exists(repo_dir):
     cloned_repo = git.Repo.init(repo_dir)
