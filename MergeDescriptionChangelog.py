@@ -22,9 +22,9 @@ else:
 desc = get_description()
 
 f = open("C://Users//gusta//workspace//teste//CHANGELOG.md", "a")
-f.write("\n\n")
+#f.write("\n\n")
 f.write(desc)
-f.write("\n\n")
+#f.write("\n\n")
 f.close()
 
 cloned_repo.index.add("*")
