@@ -69,3 +69,30 @@ straightforward as possible.
 ### Changed
 
 ### Fixed
+## [<a href="link merge">source-branch</a>] - yyyy-mm-dd
+ 
+Here we write upgrading notes for brands. It's a team effort to make them as
+straightforward as possible.
+ 
+### Added
+- <a href="link historia">[CRCUPG-3]</a>
+  Descrição alterações
+  
+ 
+### Changed
+
+### Fixed
+## [<a href="link merge">source-branch</a>] - yyyy-mm-dd
+ 
+Here we write upgrading notes for brands. It's a team effort to make them as
+straightforward as possible.
+ 
+### Added
+- <a href="link historia">[CRCUPG-3]</a>
+  Descrição alterações
+  
+ 
+### Changed
+
+### Fixed
+TESTE de merge request to main

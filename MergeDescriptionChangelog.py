@@ -1,12 +1,14 @@
 import os
 import git 
+import requests
 
 git_url = "https://github.com/Gustavo-Miguel/teste.git"
+pull_url = "https://api.github.com/repos/Gustavo-Miguel/teste/pulls/1"
 repo_dir = "C://Users//gusta//workspace//teste"
 
 def get_description():
-    f = open("C://Users//gusta//workspace//teste//description.txt", "r")
-    description = f.read()
+    pullObject = requests.get(pull_url)
+    description = pullObject.json().get('body')
     return description
 
 if os.path.exists(repo_dir):
