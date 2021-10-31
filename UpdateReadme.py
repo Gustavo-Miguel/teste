@@ -2,10 +2,10 @@ import os
 import git 
 
 git_url = "https://github.com/Gustavo-Miguel/teste.git"
-repo_dir = "C://Users//Gustavo//Desktop//teste"
+repo_dir = "C://Users//gusta//workspace//teste"
 
 def get_description():
-    f = open("C://Users//Gustavo//Desktop//description.txt", "r")
+    f = open("C://Users//gusta//workspace//teste//description.txt", "r")
     description = f.read()
     return description
 
@@ -19,7 +19,7 @@ else:
 
 desc = get_description()
 
-f = open("C://Users//Gustavo//Desktop//teste//CHANGELOG.md", "a")
+f = open("C://Users//gusta//workspace//teste//CHANGELOG.md", "a")
 f.write(desc)
 f.close()
 
