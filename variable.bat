@@ -1,0 +1,2 @@
+echo $PATH
+echo $GIT_PYTHON_GIT_EXECUTABLE
